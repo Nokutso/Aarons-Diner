@@ -476,7 +476,7 @@ footer{
   background-color: black;
   color: white;
   font-size: 0.9rem;
-  text-align: end;
+  text-align: start;
 }
 
 footer p {
