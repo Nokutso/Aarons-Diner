@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/style-contact.css"/>
+    <link rel="stylesheet" href="../css/style-index.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" href="../images/favicon.png">
+  </head>
+  <body>
+    <header>
+      <div class="logo_and_phrase">
+          <h1 id="logo" class="animate__animated"><a href="index.html">Aaron's Diner</a></h1>
+          <p id="phrase">WHERE EVERY BITE FEELS LIKE HOME</p>
+      </div>
+      <nav class="main_nav">
+        <ul>
+          <li><a href="index.html" target="_blank">Home</a></li>
+          <li><a href="menu.html" target="_blank">Menu</a></li>
+          <li><a href="about.html" target="_blank">About Us</a></li>
+          <li><a href="contact.html" target="_blank">Contact</a></li>
+          <li><a href="index.html#location" >Restaurant Locator</a></li>
+        </ul>
+      </nav>
+    </header>
+
+      <div id="img"> </div>
+
+    <main>
+      <h2>Get in Touch</h2>
+      <p>We'd love to hear from you! Whether it's feedback, queries, or just a hello.</p>
+
+      <div class="contact-content">
+        <form id="contactForm">
+          <label for="name">Name:<span class="required">*</span></label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:<span class="required">*</span></label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:<span class="required">*</span></label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+
+      <p id="formMessage"></p>
+
+      <!-- REACH OUT -->
+      <div class="reach-out">
+        <h3>Physical Address</h3>
+        <p class="info"> 99 Angels Road, Johannesburg</p>
+        <h3>Telephone</h3>
+        <p class="info"> (011) 345-5533</p>
+        <h3>Email</h3>
+        <p class="info">info@aaronsdiner.com</p>
+
+      </div>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2288.4330941217344!2d28.045519076395654!3d-26.204102020136315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9509a1f3c8d9e7%3A0x76f123e5d3e7e29f!2sJohannesburg%2C%20South%20Africa!5e0!3m2!1sen!2sza!4v1715731980000!5m2!1sen!2sza" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </main>
+    <footer>
+      <p>&copy; 2025 Aaron's Diner. All Rights Resevered. Owned by Sharon Jack</p>
+    </footer>
+    <script src="../javascript/script.js"></script>
+  </body>
+</html>

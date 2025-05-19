@@ -1,0 +1,105 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: #fffaf5;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  max-width: 1000px;
+  margin: 10rem auto;
+  padding: 2rem;
+  flex: 1;  
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.tab {
+  padding: 0.8rem 2rem;
+  background-color: #eee;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.tab:hover, .tab.active {
+  background-color: #f7c35f;
+  color: white;
+}
+
+.tab-content {
+  display: none;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.menu-item {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+.menu-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+  color: #587792;
+  font-family: Boldonse;
+}
+
+.menu-item p {
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+  font-family: Raleway;
+}
+
+.menu-item span {
+  font-weight: bold;
+  color: #444;
+}
+
+.img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media screen and (max-width: 600px) {
+  .tab {
+    width: 100%;
+  }
+
+  .img{
+    margin-top: 10%;
+    margin-left: 0;
+  }
+}
+

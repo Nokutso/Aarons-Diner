@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Welcome to Our Restaurant</title>
+    <link rel="stylesheet" href="../css/style-index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" href="../images/favicon.png">
+  </head>
+  <body>
+
+    <!-- HEADER AND NAVIGATION -->
+    <header>
+      <div class="logo_and_phrase">
+          <h1 id="logo" class="animate__animated" >Aaron's Diner</h1>
+          <p id="phrase">WHERE EVERY BITE FEELS LIKE HOME</p>
+      </div>
+      <nav class="main_nav">
+        <ul>
+          <li><a href="index.html" target="_blank">Home</a></li>
+          <li><a href="menu.html" target="_blank">Menu</a></li>
+          <li><a href="about.html" target="_blank">About Us</a></li>
+          <li><a href="contact.html" target="_blank">Contact</a></li>
+          <li><a href="#location" >Restaurant Locator</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="header2">
+      <nav class="mini_nav">
+          <ul>
+              <li><a href="#content3">Book Now</a></li>
+              <li><a href="#">Gift Cards</a></li>
+          </ul>
+      </nav>
+  </section>
+
+    <main>
+    <!-- SPECIAL 1 -->
+      <div class="parallax">
+          <div class="sticker-title">Special of the Day</div>
+          <div class="special-details">
+          <p><strong>Spicy Chicken Burger Combo</strong> - Served with crispy fries and a drink!</p>
+          <p><em>Only R89.99</em> - Today only. Don't miss out!</p>
+          </div>
+          <a href="#order" class="order-btn">Order Now</a>
+      </div>
+
+      <section class="content1">
+        <div id="intro">
+          <h1>Welcome to <span class="highlight">Aaron's Diner</span></h1>
+          <p class="tagline">Where every bite is a moment of joy.</p>
+        </div>
+
+        <div id="about">
+          <h2>About Us</h2>
+          <p>At <strong>Aaron's Diner</strong>, we take pride in serving delicious meals made with the freshest ingredients. Our passionate chefs bring heart and soul to every dish, ensuring a flavorful experience for every guest.</p>
+          <p>Whether you're craving a hearty breakfast, a satisfying lunch, or a comforting dinner, we've got something special just for you.</p>
+        </div>
+      </section>
+
+      <!-- SPECIAL 2 -->
+      <div class="parallax second">
+        <div class="sticker-title">Sweet Treat Deal</div>
+        <div class="special-details">
+          <p><strong>Double Chocolate Milkshake + Waffle</strong> - A dessert lover’s dream combo!</p>
+          <p><em>Only R59.99</em> - Limited to first 50 customers!</p>
+        </div>
+        <a href="#order" class="order-btn">Order Now</a>
+      </div>
+
+      <section class="content2">
+        <h2>Explore Our Menu</h2>
+        <p>From sunrise breakfasts to hearty dinners, our menu is crafted to satisfy every craving. Dive into a variety of delicious meals made with the freshest ingredients and a touch of home-cooked love.</p>
+      </section>
+
+      <!-- SPECIAL 3 -->
+      <div class="parallax third">
+        <div class="sticker-title">Breakfast Bonanza</div>
+        <div class="special-details">
+          <p><strong>Full English Breakfast</strong> - Eggs, toast, bacon, sausage & a free coffee.</p>
+          <p><em>Only R74.99</em> - Served till 11AM.</p>
+        </div>
+        <a href="#order" class="order-btn">Order Now</a>
+      </div>
+
+
+      <section id="content3" class="content3">
+        <div class="contact-container">
+            <h2>Visit Us</h2>
+            <p>Visit our location or book a table online!</p>
+
+            <!-- CONTACT INFO -->
+            <div class="contact-info">
+              <h3>Our Location</h3>
+              <p>123 Food Street, Flavor Town</p>
+              <p>📞 (012) 345-6789</p>
+            </div>
+
+            <!-- BOOKING FORM -->
+            <form class="booking-form">
+              <h3>Book a Table</h3>
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required>
+
+              <label for="date">Date</label>
+              <input type="date" id="date" name="date" required>
+
+              <label for="time">Time</label>
+              <input type="time" id="time" name="time" required>
+
+              <label for="guests">Number of Guests</label>
+              <input type="number" id="guests" name="guests" min="1" max="20" required>
+
+              <button type="submit" class="btn">Book Now</button>
+            </form>
+          </div>
+      </section>
+      <section id="location">
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.44250693999!2d28.141675675636442!3d-26.11711117713027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9513a98dbf29fd%3A0x306a41492a1d8f57!2sPapachinos%20Stoneridge!5e0!3m2!1sen!2sza!4v1747297274634!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer>
+          <p>&copy; 2025 Aaron's Diner. All Rights Resevered. Owned by Sharon Jack</p>
+    </footer>
+    <script src="../javascript/script.js"></script>
+  </body>
+</html>
