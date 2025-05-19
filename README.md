@@ -1,38 +1,38 @@
-# 🍽️ Aaron's Diner - Restaurant Website
+# 🍽️ Aaron's Diner
 
-Welcome to **Aaron's Diner**, a cozy, home-style restaurant where every bite feels like home. This website showcases our delicious menu, warm atmosphere, and helps customers get in touch or locate us easily.
+Welcome to **Aaron's Diner**, a modern and cozy restaurant website where every bite feels like home.
 
-## 🌟 Project Overview
+## 🌐 Live Site
 
-This is a responsive, multi-page restaurant website built using **HTML5**, **CSS3**, and **JavaScript**. The project features interactive elements like tabbed menus, animations, and form handling to simulate a full restaurant experience.
+The site: [Aarons Diner GitHub Pages](https://nokutso.github.io/Aarons-Diner/)
 
-## 📄 Pages Included
 
-- **Home** (`index.html`): Hero image, welcome section, and featured dishes.
-- **Menu** (`menu.html`): Interactive, categorized menu with tabbed content.
-- **About Us** (`about.html`): Background of Aaron’s Diner and our mission.
-- **Contact** (`contact.html`): Contact form and location details.
+## 📌 Project Description
+
+This website showcases the full menu of Aaron's Diner, including:
+
+- A dynamic tab-based menu (Breakfast, Lunch, Sides, Drinks, Desserts)
+- Responsive design and layout
+- Animated logo interaction using Animate.css
+- Clean navigation to pages like Home, About, and Contact
 
 ## 🎯 Objectives
 
-- Practice responsive web design principles
-- Implement tab switching with JavaScript
-- Use CSS animations for visual appeal
-- Structure a multi-page website
+- Practice semantic HTML5 and clean CSS3
+- Implement JavaScript for interactivity (tabs and animations)
+- Apply responsive design using media queries
+- Host the project using GitHub Pages
 
 ## 🛠️ Technologies Used
 
-- HTML5
-- CSS3 (Custom & [Animate.css](https://animate.style))
-- JavaScript (DOM manipulation and event handling)
-- Google Fonts and Pexels Images
+- HTML5  
+- CSS3  
+- JavaScript  
+- Animate.css  
+- GitHub Pages for deployment
 
-## 📸 Screenshots
+## 🚀 How to Run Locally
 
-![Aaron's Diner Menu Page](./screenshots/menu-page.png)
-
-## 🚀 How to Run the Project
-
-1. Clone the repository:
+1. Clone the repo:
    ```bash
    git clone https://github.com/yourusername/aarons-diner.git
